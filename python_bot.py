@@ -14,7 +14,7 @@ async def start(message: types.Message):
     builder = InlineKeyboardBuilder()
     builder.button(
         text="Mini Appni ochish",
-        web_app=WebAppInfo(url="http://127.0.0.1:8000")
+        web_app=WebAppInfo(url="https://mini-web-app.onrender.com")
     )
 
     await message.answer(
